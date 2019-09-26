@@ -1,9 +1,9 @@
 # Categorical-Feature-Encoding
 
 Method 1: Label encoding 
-In this method we change every categorical data to a number.That is each type will be subtuted by a number.for example we will substitute 1 for Grandmaster,2 for master ,3 for expert etc.. For implementing this we will first import Labelencoder from sklearn module.
+In this method we change every categorical data to a number.That is each type will be subtituted by a number. For example we will substitute 1 for Grandmaster,2 for master ,3 for expert etc.
 
- three steps to label encode our data:
+Three steps to label encode our data:
 Initialize the labelencoder class
 Call the fit() method to fit the data
 Transform data to labelencoded data
